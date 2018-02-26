@@ -57,10 +57,10 @@
     "objectcache.configuration_overloaded": false,
     "objectcache.enabled": "0",
     "objectcache.debug": false,
-    "objectcache.enabled_for_wp_admin": true,
-    "objectcache.fallback_transients": true,
+    "objectcache.enabled_for_wp_admin": "0",
+    "objectcache.fallback_transients": "1",
     "objectcache.engine": "file",
-    "objectcache.file.gc": 3600,
+    "objectcache.file.gc": "3600",
     "objectcache.file.locking": false,
     "objectcache.memcached.servers": [
         "127.0.0.1:11211"
@@ -93,7 +93,7 @@
         "counts",
         "plugins"
     ],
-    "objectcache.lifetime": 180,
+    "objectcache.lifetime": "180",
     "objectcache.purge.all": false,
     "pgcache.configuration_overloaded": false,
     "pgcache.enabled": "1",
@@ -147,15 +147,15 @@
     ],
     "pgcache.late_init": "0",
     "pgcache.late_caching": "0",
-    "pgcache.mirrors.enabled": "0",
+    "pgcache.mirrors.enabled": "1",
     "pgcache.mirrors.home_urls": [
-        ""
+        "https:\/\/jordan.training.moreax.fr"
     ],
     "pgcache.reject.front_page": false,
     "pgcache.reject.logged": "1",
-    "pgcache.reject.logged_roles": "0",
+    "pgcache.reject.logged_roles": "1",
     "pgcache.reject.roles": [
-        ""
+        "administrator"
     ],
     "pgcache.reject.uri": [
         "wp-.*\\.php",
